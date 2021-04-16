@@ -1,0 +1,46 @@
+.bpfm-add-reason {margin-bottom: 15px;}
+.bpfm-reason-single{margin-bottom: 5px;}
+.bpfm-reason-single input[type="text"]{margin-right: 5px;}
+.hide{display: none;}
+.bpfm-save-form-fields{margin-top: 10px;}
+.bpfm-form-fields-waiting-loader{position:absolute;left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(255,255,255,.8);cursor: wait;display: none;}
+.bpfm-form-fields-waiting-loader img{position: absolute;left: 50%;margin-left: -20px;top: 50%;margin-top: -20px;}
+.bpfm-general-settings-waiting-loader{position:absolute;left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(255,255,255,.8);cursor: wait;display: none;}
+.bpfm-general-settings-waiting-loader img{position: absolute;left: 50%;margin-left: -20px;top: 50%;margin-top: -20px;}
+.bpfm-form-fields{position: relative;}
+.bpfm-general-settings{position: relative;}
+.bpfm-form-field-name, .bpfm-form-field-email, .bpfm-form-field-reasons, .bpfm-form-field-description{margin-bottom: 50px;}
+.bpfm-ban-member-content h4{margin-bottom: 0;}
+.bpfm-ban-member-content select, .bpfm-ban-member-content textarea{width: 100%;}
+.bpfm-ban-submit{margin-top: 10px;text-align: right;}
+.bpfm-modal-waiting-loader{position:absolute;left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(255,255,255,.8);cursor: wait;display: none;}
+.bpfm-modal-waiting-loader img{position: absolute;left: 50%;margin-left: -20px;top: 50%;margin-top: -20px;}
+.bpfm-approve-flag-modal-content{position: relative;}
+.bpfm-approve-flag-success, .bpfm-user-unban-success{border-radius: 5px; border: 1px solid green; color: green;display: none;padding: 10px;}
+.bpfm-view-flag-modal-content {text-align: center;padding: 20px;}
+.bpfm-flag-details-tbl-footer-td input{margin-right: 10px !important;}
+.bpfm-flag-details-tbl-footer tr td{text-align: right;}
+#bpfm-view-flag-modal .modal-content{width: 40%;}
+
+/* Switch CSS*/
+.switch {position: relative; display: inline-block; width: 60px; height: 34px;}
+.switch input {display:none;}
+.slider {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s; transition: .4s;}
+.slider:before {position: absolute; content: ""; height: 26px; width: 26px; left: 4px; bottom: 4px; background-color: white; -webkit-transition: .4s; transition: .4s;}
+input:checked + .slider {background-color: #2196F3;}
+input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+.slider.round {border-radius: 34px;}
+.slider.round:before {border-radius: 50%;}
+.bpfm-flag-actions button{margin-right: 10px !important;}
+
+/* Modal CSS*/
+.modal {display: none;position: fixed;z-index: 999999;padding-top: 10%;padding-bottom: 10%;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4);}
+.modal-content {position: relative;background-color: #fefefe;margin: auto;padding: 0;border: 1px solid #888;width: 30%;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);-webkit-animation-name: animatetop;-webkit-animation-duration: 0.4s;animation-name: animatetop;animation-duration: 0.4s;min-width: 290px;max-height: 100%;margin-top: 0;overflow: auto;}
+@-webkit-keyframes animatetop {from {top:-300px; opacity:0} to {top:0; opacity:1}}
+@keyframes animatetop {from {top:-300px; opacity:0}to {top:0; opacity:1}}
+.close {color: white;float: right;font-size: 28px;font-weight: bold;}
+.close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
+.modal-header {padding: 16px;background-color: #2ea3f2;color: white;}
+.modal-header h2{clear: none;color: #fff;}
+.modal-body {padding: 16px;}
